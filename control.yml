@@ -8,7 +8,7 @@
     - name: Copy PCAP file to Control node
       fetch:
         src: traffic.pcap
-        dest: "/home/jgpaz/HOA8.2/PCAP"
+        dest: "/home/jgpaz/H0A8.1/PCAP"
     - block:
       - name: Verifying of Extraction
         shell: cat traffic.pcap
